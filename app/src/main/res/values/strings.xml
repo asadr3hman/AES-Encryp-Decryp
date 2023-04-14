@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AES</string>
+    <string-array name="AESType">
+        <item>AES-128</item>
+        <item>AES-192</item>
+        <item>AES-256</item>
+    </string-array>
+</resources>
