@@ -1,6 +1,7 @@
 package com.example.aes
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -85,6 +86,8 @@ class MainActivity : AppCompatActivity() {
             else{
                 val listofHex = covertToHex(plainText)
                 textView.text = listofHex.toString()
+                val intent = Intent(this, roundViewActivity::class.java)
+                startActivity(intent)
             }
         }
     }
